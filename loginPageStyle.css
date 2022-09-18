@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(Images/loginbg.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform{
+    width: 600px;
+    height: 500px;
+    padding: 25px;    
+}
+
+.loginform h3{
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+    border-bottom: 4px solid rgb(255, 166, 0);
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+
+.loginform #label1{
+    color: white;
+    font-size: 18px;
+    padding: 0px 15px;
+}
+
+.loginform #label2{
+    color: white;
+    font-size: 18px;
+    padding: 0px 16px;
+}
+
+.loginform #label3{
+    color: white;
+    font-size: 18px;
+    padding: 0px 16px;
+    
+}
+
+.loginform input{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 65%;
+    border-bottom: 2px solid rgb(255, 166, 0);
+    margin: 15px 10px;
+    padding: 4px 0;
+}
+
+::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: 30;
+}
+
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border: 2.5px solid rgb(255, 166, 0);
+    border-radius: 4px;
+    width: 80px;
+    margin: 33px 158px;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: bold;    
+}
+
+.btn:hover{
+    background-color: rgb(255, 166, 0);
+    opacity: 0.9;
+}
+
+.loginform p{
+    color: white;
+    margin: 10px 18px 15px 18px;
+}
+
+.loginform a{
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+    padding-left: 10px;
+}
+
+.greenMsg{
+    color: green;
+}
+
+.redMsg{
+    color: red;
+}
